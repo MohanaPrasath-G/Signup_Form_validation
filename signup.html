@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"> 
+    
+    </script>
+  </head>
+  <body>
+    <div class="div">
+      <h1 class="head">SignUp</h1>
+      <div class="div1">
+        <form name="form" onsubmit="return demo()">
+          <div for="name" class="c1">Name:</div>
+          <input type="text" id="name" name="name" class="c2" />
+          <p id="name1"></p>
+
+         <div for="" class="c1">Roll: </div>
+          <input type="text" id="roll" name="roll" class="c2" />
+          <p id="roll1"></p>
+
+          <div for="" class="gender_label c1">Gender: </div>
+          <input type="radio" id="gender_male" name="gender"  value="male" />Male
+          <input type="radio" id="gender_female" name="gender"  value="female" />Female
+          <p id="gender1"></p>
+
+          <div for="" class="c1">DateOfBirth: </div>
+          <input type="date" id="dob" name="dob" class="c2" />
+          <p id="dob1"></p>
+
+          <div for="" class="c1">Year: </div>
+          <select name="year" id="year" class="c2">
+            <option></option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+          </select>
+          <p id="year1"></p>
+
+          <div for="" class="c1">Dept: </div>
+          <select name="dept" id="dept" class="c2">
+            <option></option>
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+          </select>
+          <p id="dept1"></p>
+
+          <div for="" class="c1">Section: </div>
+          <select name="sec" id="sec" class="c2">
+            <option></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+          </select>
+          <p id="sec1"></p>
+
+          <div for="" class="c1">Phone: </div>
+          <input type="number" id="phone" name="phone" class="c2" />
+          <p id="phone1"></p>
+
+          <div for="" class="c1">Email: </div>
+          <input type="text" id="email" name="email" class="c2" />
+          <p id="email1"></p>
+
+         <div for="" class="c1">Address: </div>
+
+          <textarea name="add" id="add" cols="40" rows="10" class="c2 address"></textarea>
+          <p id="add1"></p>
+
+          <div for="" class="c1">City: </div>
+          <input type="text" id="city" name="city" class="c2" />
+          <p id="city1"></p>
+
+          <div for="" class="c1">Pin: </div>
+          <input type="number" id="pin" name="pin" class="c2" />
+          <p id="pin1"></p>
+
+          <input type="submit" value="submit" class="submit c2" />
+        </form>
+      </div>
+    </div>
+    <!-- <script>
+        function demo(){
+            if(document.getElementById("name").value==""){
+                document.getElementById("sp").innerHTML="please";
+            }
+        }
+    </script> -->
+  </body>
+</html>
